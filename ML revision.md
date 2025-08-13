@@ -28,7 +28,7 @@ D) The model's performance is highly sensitive to small fluctuations in the trai
 
 5\. What is "Accuracy" primarily used for in machine learning?  
 A) Measuring the average squared difference between predicted and actual values in regression.  
-B) Quantifying the proportion of correct predictions made by a classification model. 14  
+B) Quantifying the proportion of correct predictions made by a classification model. 
 C) Determining the complexity of a decision tree.  
 D) Assessing the computational efficiency of an algorithm.
 
