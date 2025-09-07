@@ -29,14 +29,18 @@
 **Answer:** C  
 **Explanation:** Random Forests train multiple trees on bootstrapped samples and random feature subsets to reduce correlation and overfitting.
 
-### 4. Boosting methods primarily aim to:
-- A) Reduce variance
-- B) Reduce bias
-- C) Reduce training time
-- D) Increase the number of features
+### 4. Which ensemble method is typically faster to train in parallel?
 
-**Answer:** B  
-**Explanation:** Boosting sequentially trains models focusing on previous errors, reducing bias.
+- A) Boosting
+
+- B) Bagging
+
+- C) Stacking
+
+- D) Blending
+
+**Answer:** B
+**Explanation:** Bagging trains base models independently, allowing parallel training, whereas Boosting is sequential.
 
 ### 5. Which of the following statements is true about AdaBoost?
 - A) It combines models in parallel
@@ -65,14 +69,18 @@
 **Answer:** A  
 **Explanation:** Blending uses a separate holdout set to train the meta-model, unlike stacking which uses cross-validation.
 
-### 8. Which ensemble method is most likely to overfit if base learners are too complex?
-- A) Bagging
-- B) Random Forest
-- C) Boosting
-- D) None of the above
+### 8. Which of the following statements is true?
 
-**Answer:** C  
-**Explanation:** Boosting focuses on errors, so strong base learners may overfit the training data.
+- A) Boosting can be used with any base learner
+
+- B) Bagging requires sequential training
+
+- C) Random Forest cannot be used for regression
+
+- D) Blending uses the entire training set for meta-model training
+
+**Answer:** A  
+**Explanation:** Boosting can work with various weak learners, not just decision trees; Bagging is parallel, Random Forest works for regression, and blending uses a holdout set for meta-model training.
 
 ### 9. What is the primary advantage of Random Forest over a single decision tree?
 - A) Faster training time
@@ -83,14 +91,18 @@
 **Answer:** C  
 **Explanation:** Averaging many trees reduces variance and overfitting compared to a single tree.
 
-### 10. Which of the following is a disadvantage of Bagging?
-- A) It increases bias significantly
-- B) It requires sequential training
-- C) It may not reduce bias if the base learners are weak
-- D) It cannot be used for regression
+### 10. Which of the following can help prevent overfitting in Random Forests?
+
+- A) Using very deep trees
+
+- B) Increasing the number of features considered at each split
+
+- C) Limiting tree depth and increasing number of trees
+
+- D) Training only one tree
 
 **Answer:** C  
-**Explanation:** Bagging reduces variance, but cannot fix high bias from weak base learners.
+**Explanation:** Limiting depth prevents individual trees from overfitting, while more trees reduce variance.
 
 ### 11. How does AdaBoost assign importance to base learners in the final model?
 - A) By the training error of each learner
