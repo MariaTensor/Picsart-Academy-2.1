@@ -51,7 +51,7 @@ Bagging, a contraction of "bootstrap aggregating," is a prominent averaging ense
 
 Bagging directly addresses the problem of high variance in machine learning models.1 By averaging the predictions from multiple models, each trained on slightly different data, it effectively smooths out the individual models' tendencies to overfit to specific noise or fluctuations present in their respective training subsets. This aggregation process leads to a combined model that is more robust and generalizes better to unseen data, without significantly increasing bias.
 
-### **B. Boosting Methods (Bias Reduction)**
+### **B. Boosting Methods**
 
 Boosting methods represent a contrasting approach to averaging, focusing on reducing bias in models.
 
